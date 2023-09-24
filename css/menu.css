@@ -11,6 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
+}
+
+.background__menu {
+    position: relative;
 }
 
 .background-menu {
@@ -22,6 +28,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
+}
+
+.background__menu-border {
+    position: absolute;
+    border: 5px solid #5BACC3;
+    width: 30rem;
+    height: 20rem;
+    left: -1.5rem;
+    bottom: 1.5rem;
 }
 
 .menu {
