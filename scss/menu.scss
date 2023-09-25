@@ -1,0 +1,111 @@
+@use './partials/global' as *;
+
+.background {
+    &__menutext {
+            background-color: #393939;
+            width: 30rem;
+            height: 20rem;
+            text-align: center;
+            color: white;
+            font-size: 6rem;
+            font-weight: 300;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    &__menu {
+        position: relative;
+    }
+
+    &-menu {
+        background-image: url("../assets/images/coffee-circle.jpg");
+        width: 100%;
+        height: 70rem;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__menu-border {
+        position: absolute;
+        border: 5px solid #5BACC3;
+        width: 30rem;
+        height: 20rem;
+        left: -1.5rem;
+        bottom: 1.5rem;
+    }
+
+    &__list {
+        list-style-type: none;
+        background-color: #393939;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 8rem;
+        padding: 2rem;
+    }
+
+}
+
+.menu {
+    text-align: center;
+
+    &__link {
+            text-decoration: none;
+            color: white;
+            font-size: 2.1rem;
+            text-transform: uppercase;
+        }
+
+    &__item {
+        border-left: 4px solid #5BACC3;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.drink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+
+    &--pink {
+            background-color: #FFF0ED;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 4rem 0px;
+        }
+
+    &--gray {
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 0px;
+    }
+
+    &__price {
+        color: #5BACC3;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    &__text {
+        font-style: italic;
+        font-size: 1.8rem;
+        font-weight: 400;
+        max-width: 35%;
+        text-align: center;
+    }
+}
+
+
+
+
